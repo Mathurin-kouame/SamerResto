@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+  font-family: 'Popins' sans-serif;
+}
+
+header {
+    height: 100vh; 
+    width: 100%; 
+    background-image: url("/img/imberger.jpeg");
+    background-size: cover;
+}
+
+.navbar{
+    position: absolute;
+    margin: 30px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.navbar .logo{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 30%;
+}
+
+.navbar .nav-links ul{
+    display: flex; 
+}
+
+.navbar .nav-links ul li{
+   margin: 0 25px;
+}
+
+.navbar .nav-links ul li.active a{
+   color: #ed3c57;
+   font-size: 600;
+ }
+
+ @media screen {
+    
+ }
